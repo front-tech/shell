@@ -6,6 +6,8 @@
     "@front-tech/products": "https://front-tech.github.io/products",
     "@front-tech/payment": "https://front-tech.github.io/payment",
     "@front-tech/inspire": "https://front-tech.github.io/inspire/index.js",
+    "@front-tech/app-shell": "//localhost:9000/front-tech-app-shell.js",
+    "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
 
     "@react-mf/people": "https://react.microfrontends.app/people/4d0af0a673764fa9b311f9f98163c88be9af9426/react-mf-people.js",
     "@react-mf/api": "https://react.microfrontends.app/api/849cde43d1bf1a072c1b71b4de504fc7120d4629/react-mf-api.js",
