@@ -6,6 +6,6 @@
     "@front-tech/products": "https://front-tech.github.io/products/front-tech-products.js",
     "@front-tech/payment": "https://front-tech.github.io/payment/payment-payment.js",
     "@front-tech/inspire": "https://front-tech.github.io/inspire/main.js",
-    "@front-tech/app-shell": "https://front-tech.github.io/front-tech-app-shell.js"
+    "@front-tech/app-shell": "https://front-tech.github.io/shell/front-tech-app-shell.js"
   }
 }
