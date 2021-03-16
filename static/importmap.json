@@ -3,14 +3,9 @@
     "react": "https://cdn.jsdelivr.net/npm/react@17.0.1/umd/react.production.min.js",
     "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@17.0.1/umd/react-dom.production.min.js",
     "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.8.2/lib/system/single-spa.min.js",
-    "@front-tech/products": "https://front-tech.github.io/products",
-    "@front-tech/payment": "https://front-tech.github.io/payment",
-    "@front-tech/inspire": "https://front-tech.github.io/inspire/index.js",
-    "@front-tech/app-shell": "//localhost:9000/front-tech-app-shell.js",
-    "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
-
-    "@react-mf/people": "https://react.microfrontends.app/people/4d0af0a673764fa9b311f9f98163c88be9af9426/react-mf-people.js",
-    "@react-mf/api": "https://react.microfrontends.app/api/849cde43d1bf1a072c1b71b4de504fc7120d4629/react-mf-api.js",
-    "@react-mf/planets": "https://react.microfrontends.app/planets/010c38f36fc578c406f1aa44d16f6aad9062f2f2/react-mf-planets.js"
+    "@front-tech/products": "https://front-tech.github.io/products/static/front-tech-products.js",
+    "@front-tech/payment": "https://front-tech.github.io/payment/payment-payment.js",
+    "@front-tech/inspire": "https://front-tech.github.io/inspire/main.js",
+    "@front-tech/app-shell": "https://front-tech.github.io/front-tech-app-shell.js"
   }
 }

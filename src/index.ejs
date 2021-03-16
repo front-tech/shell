@@ -24,18 +24,15 @@
   <!-- More info at https://github.com/joeldenning/import-map-overrides/blob/master/docs/configuration.md#domain-list -->
   <!-- <meta name="import-map-overrides-domains" content="denylist:prod.example.com" /> -->
 
-  <!-- <% if (isLocal) { %>
+  <% if (isLocal) { %>
     <script type="systemjs-importmap">
       {
         "imports": {
-          "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
-          "@front-tech/app-shell": "//localhost:9000/front-tech-app-shell.js",
-          "react": "https://cdn.jsdelivr.net/npm/react@17.0.1/umd/react.production.min.js",
-          "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@17.0.1/umd/react-dom.production.min.js"
+          "@front-tech/app-shell": "//localhost:9000/front-tech-app-shell.js"
         }
       }
     </script>
-    <% } %> -->
+    <% } %>
 
   <!--
     If you need to support Angular applications, uncomment the script tag below to ensure only one instance of ZoneJS is loaded
@@ -58,10 +55,15 @@
         <application name="@<%- orgName %>/navbar"></application>
       </nav> -->
       <main>
-        <route default>
-          <application name="@single-spa/welcome"></application>
-          <!-- <application name="@react-mf/people"></application> -->
+        <route path="products">
+          <application name="@front-tech/products"></application>
         </route>
+        <route path="payment">
+          <application name="@front-tech/payment"></application>
+        </route>
+        <!-- <route default>
+          <application name="@front-tech/inspire"></application>
+        </route> -->
       </main>
     </single-spa-router>
   </template>
